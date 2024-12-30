@@ -223,7 +223,7 @@ def make_music(song):
     # print(font_manager.get_font_names())
     # font_manager.findfont('FreeSans')
     try:
-        font = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSans_nope.ttf', size=radius)
+        font = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSans.ttf', size=radius)
     except OSError as ex:
         exc_type, exc_obj, exc_tb = sys.exc_info()
         print("It looks like either you aren't on Linux, or you don't have FreeSans installed in the same place I had it.")
