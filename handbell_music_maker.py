@@ -219,7 +219,21 @@ def make_music(song):
     x = x_start
     y = y_start
 
-    font = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSans.ttf', size=radius)
+    # from matplotlib import font_manager
+    # print(font_manager.get_font_names())
+    # font_manager.findfont('FreeSans')
+    try:
+        font = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeSans_nope.ttf', size=radius)
+    except OSError as ex:
+        exc_type, exc_obj, exc_tb = sys.exc_info()
+        print("It looks like either you aren't on Linux, or you don't have FreeSans installed in the same place I had it.")
+        print(f"""You can find a suitable font by running:
+from matplotlib import font_manager
+print(font_manager.get_font_names())
+font_manager.findfont('FreeSans')
+
+In a Python terminal. You can replace FreeSans with a different font if you don't have it. Then edit line {exc_tb.tb_lineno} (which has the path to the font file).""")
+        exit(1)
 
     for beat in music:
         note, *lyrics = beat
