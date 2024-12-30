@@ -50,87 +50,142 @@ songs = {
         'beats_per_line': 15,
         'num_verses': 3
     },
-    'happy_birthday': [['C', 'Hap'],[ 'C', 'py'],[ 'D', 'Birth'],[ 'C', 'day'],[ 'F', 'to'],[ 'E', 'you'],[ '', ''],
+    'happy_birthday': {
+        'music': [['C', 'Hap'],[ 'C', 'py'],[ 'D', 'Birth'],[ 'C', 'day'],[ 'F', 'to'],[ 'E', 'you'],[ '', ''],
                        ['C', 'Hap'],[ 'C', 'py'],[ 'D', 'Birth'],[ 'C', 'day'],[ 'G', 'to'],[ 'F', 'you'],[ '', ''],
                        ['C', 'Hap'],[ 'C', 'py'],[ 'C2', 'Birth'],[ 'A', 'day'],[ 'F', 'dear'],[ 'E', '___'],[ 'D', '___'],
                        ['A#', 'Hap'],[ 'A#', 'py'],[ 'A', 'Birth'],[ 'F', 'day'],[ 'G', 'to'],[ 'F', 'you'],[ '', ''],
                       ],
-    'samuel_tells': [['G', 'Said', 'A-'],[ 'C', 'Sam-', 'cross'],[ 'A#', '-u-', 'the'],[ 'C', '-el', 'sea'],[ '', '', ''],[ 'D', 'With-', 'in'],[ 'C', 'in', 'Beth-'],[ 'A#', '-', ''],[ 'G', 'five', 'le-'],[ 'G', 'years', 'hem'],[ 'G', 'A', 'Lord'],[ 'F', 'night', 'Je-'],[ 'F', 'will', 'sus'],[ 'F', 'be', 'came'],[ 'D#', 'as', 'to'],[ 'G', 'day', 'earth'],[ '', '', ''],
+        'num_lines': 4,
+        'beats_per_line': 7,
+        'num_verses': 1
+    },
+    'samuel_tells': {
+        'music': [['G', 'Said', 'A-'],[ 'C', 'Sam-', 'cross'],[ 'A#', '-u-', 'the'],[ 'C', '-el', 'sea'],[ '', '', ''],[ 'D', 'With-', 'in'],[ 'C', 'in', 'Beth-'],[ 'A#', '-', ''],[ 'G', 'five', 'le-'],[ 'G', 'years', 'hem'],[ 'G', 'A', 'Lord'],[ 'F', 'night', 'Je-'],[ 'F', 'will', 'sus'],[ 'F', 'be', 'came'],[ 'D#', 'as', 'to'],[ 'G', 'day', 'earth'],[ '', '', ''],
                      ['G', 'And', 'As'],[ 'C', 'Ba-', 'Sam-'],[ 'A#', '-by', 'u-'],[ 'G', 'Je-', 'el'],[ 'F', '-sus', 'had'],[ 'G', 'will', 'pro-'],[ 'F', '-', '-'],[ 'D#', 'be', 'phe-'],[ 'C', 'born', 'sied'],[ 'C', 'In', 'And'],[ 'D', 'a', ''],[ 'D#', 'land', 'ang-'],[ 'G', 'far', 'els'],[ 'F', 'far', 'sang'],[ 'D#', '', ''],[ 'D', 'a-', 'His'],[ 'C', '-way.', 'birth.'],
                      ['D', 'Ho-', ''],[ 'D#', 'san-', ''],[ '', '', ''],[ 'D#', 'na!', ''],[ 'F', 'Ho-', ''],[ 'G', 'san-', ''],[ 'A#', '', ''],[ 'A#', 'na!', ''],[ '', '', ''],[ 'A#', 'Oh', ''],[ 'C', 'let', ''],[ 'A#', 'us', ''],[ 'G', 'glad-', ''],[ 'A#', 'ly', ''],[ 'F', 'sing', ''],[ '', '', ''],[ '', '', ''],
                      ['F', 'How', ''],[ 'D#', 'bless-', ''],[ 'F', 'ed', ''],[ 'G', 'that', ''],[ 'A#', 'out', ''],[ 'C', 'Lord', ''],[ 'A#', 'was', ''],[ 'G', 'born', ''],[ '', '', ''],[ 'A#', 'Let', ''],[ 'G', 'earth', ''],[ 'F', 're-', ''],[ 'D#', 'ceive', ''],[ 'C', 'her', ''],[ 'D#', 'King!', ''],
                     ],
-    'be_kind': [['C', 'I'],[ 'F', 'want'],[ 'F', 'to'],[ 'F', 'be'],[ 'A', 'kind'],[ 'F', 'to'],[ 'G', 'ev-'],[ 'A#', 'ry-'],[ 'D', 'one,'],
-                ['D', 'For'],[ 'E', 'that'],[ 'G', 'is,'],[ 'A#', 'right,'],[ 'D2', 'you'],[ 'C2', 'see.'],[ '', ''],[ '', ''],[ '', ''],
-                ['C', 'So'],[ 'C', 'I'],[ 'F', 'say'],[ 'F', 'to'],[ 'F', 'my-'],[ 'A', 'self,'],[ 'F', '"Re-'],[ 'G', 'mem'],[ 'A#', 'ber'],[ 'D', 'this:'],
-                ['E', 'Kind-'],[ 'E', 'ness'],[ 'E', 'be-'],[ 'A#', 'gins'],[ 'E', 'with'],[ 'F', 'me."'],
-               ],
-    'we_are_different': [['E', 'I'],[ 'C', 'know'],[ 'G', 'you'],[ 'B', 'and'],[ 'B', 'you'],[ 'C', 'know'],[ 'A', 'me.'],[ '', ''],[ '', ''],[ '', ''],[ '', ''],
+        'num_lines': 4,
+        'beats_per_line': 17,
+        'num_verses': 2
+    },
+    'be_kind': {
+        'music': [['C', 'I'],[ 'F', 'want'],[ 'F', 'to'],[ 'F', 'be'],[ 'A', 'kind'],[ 'F', 'to'],[ 'G', 'ev-'],[ 'A#', 'ry-'],[ 'D', 'one,'],
+                    ['D', 'For'],[ 'E', 'that'],[ 'G', 'is,'],[ 'A#', 'right,'],[ 'D2', 'you'],[ 'C2', 'see.'],[ '', ''],[ '', ''],[ '', ''],
+                    ['C', 'So'],[ 'C', 'I'],[ 'F', 'say'],[ 'F', 'to'],[ 'F', 'my-'],[ 'A', 'self,'],[ 'F', '"Re-'],[ 'G', 'mem'],[ 'A#', 'ber'],[ 'D', 'this:'],
+                    ['E', 'Kind-'],[ 'E', 'ness'],[ 'E', 'be-'],[ 'A#', 'gins'],[ 'E', 'with'],[ 'F', 'me."'],
+                ],
+        'num_lines': 4,
+        'beats_per_line': 9,
+        'num_verses': 1
+    },
+    'we_are_different': {
+        'music': [['E', 'I'],[ 'C', 'know'],[ 'G', 'you'],[ 'B', 'and'],[ 'B', 'you'],[ 'C', 'know'],[ 'A', 'me.'],[ '', ''],[ '', ''],[ '', ''],[ '', ''],
                          ['B', 'We'],[ 'B', 'are'],[ 'C', 'as'],[ 'D', 'dif-'],[ 'C', 'ferent,'],[ 'B', 'as'],[ 'A', 'the'],[ 'A', 'sun'],[ 'B', 'and'],[ 'A', 'the'],[ 'G', 'sea.'],
                          ['E', 'I'],[ 'C', 'know'],[ 'G', 'you'],[ 'B', 'and'],[ 'B', 'you'],[ 'C', 'know'],[ 'A', 'me.'],[ '', ''],[ '', ''],[ '', ''],[ '', ''],
                          ['B', 'And'],[ 'B', 'that''s,'],[ 'C', 'the'],[ 'D', 'way'],[ 'C', 'that'],[ 'B', 'it''s'],[ 'D', 'sup-'],[ 'D', 'posed'],[ 'C', 'to'],[ 'C', 'be.'],
                         ],
-    'love_one_another': [['F', 'As'],[ 'G', 'I'],[ 'A', 'have'],[ 'C', 'loved'],[ 'C', 'you,'],[ 'D', 'Love'],[ 'E', 'one'],[ 'F', 'an-'],[ 'D', 'oth'],[ 'D', '-er.'],
-                         ['G', 'This'],[ 'A', 'new'],[ 'A#', 'com-'],[ 'G', 'man'],[ 'G', '-ment:'],[ 'F', 'Love'],[ 'E', 'one'],[ 'D', 'an-'],[ 'C', 'oth'],[ 'C', '-er.'],
+        'num_lines': 4,
+        'beats_per_line': 11,
+        'num_verses': 1
+    },
+    'love_one_another': {
+        'music': [['F', 'As'],[ 'G', 'I'],[ 'A', 'have'],[ 'C', 'loved'],[ 'C', 'you,'],[ 'D', 'Love'],[ 'E', 'one'],[ 'F', 'an-'],[ 'D', 'oth'],[ 'D', '-er.'], ['', ''],
+                         ['G', 'This'],[ 'A', 'new'],[ 'A#', 'com-'],[ 'G', 'man'],[ 'G', '-ment:'],[ 'F', 'Love'],[ 'E', 'one'],[ 'D', 'an-'],[ 'C', 'oth'],[ 'C', '-er.'], ['', ''],
                          ['A', 'By'],[ 'A#', 'this'],[ 'C', 'shall'],[ 'A', 'men'],[ 'D', 'know'],[ 'G', 'Ye'],[ 'G', 'are'],[ 'A', 'my'],[ 'A#', 'dis-'],[ 'G', 'ci-'],[ 'G', 'ples,'],
                          ['F', 'If'],[ 'G', 'ye'],[ 'A', 'have'],[ 'F', 'love'],[ 'D', 'One'],[ 'E', 'to'],[ 'F', 'an-'],[ 'G', 'oth'],[ 'F', '-er.'],
                         ],
-    'be_like_jesus_verse': [['C','I''m'],['D','try-'],['D#','ing'],['F','to'],['F','be'],['C2','like'],['A#','Je-'],['','-'],['D#','sus'],['',''],['',''],
+        'num_lines': 4,
+        'beats_per_line': 11,
+        'num_verses': 1
+    },
+    'be_like_jesus_verse': {
+        'music': [['C','I''m'],['D','try-'],['D#','ing'],['F','to'],['F','be'],['C2','like'],['A#','Je-'],['','-'],['D#','sus'],['',''],['',''],
                             ['D#','I''m'],['D','fol-'],['D#','low-'],['F','ing'],['G','in'],['D#','his'],['C','ways.'],['',''],['',''],['',''],['',''],
                             ['C','I''m'],['D','try-'],['D#','ing'],['F','to'],['F','love'],['A#','as'],['A#','he'],['','-'],['D#','did'],['',''],['',''],
                             ['D#','in'],['D','all'],['D#','that'],['F','I'],['G','do'],['G','and'],['A','say.'],['',''],['',''],['',''],['',''],
                             ['A','At'],['A#','times'],['A#','I am'],['A','tempt-'],['F','ed'],['D','to'],['G','make'],['F','a'],['D#','wrong'],['F','choice'],['',''],
                             ['F','But I'],['G','try'],['G','to'],['A','list-'],['F','en'],['F','as the'],['G','still'],['A#','small'],['C2','voice'],['A#','whisp-'],['C2','ers:'],['',''],['',''],['',''],['',''],
                            ],
-    'be_like_jesus_chorus': [['D2','Love'],['D2','one an-'],['D2','other-'],['C2','er'],['A#','as'],['A#','Je-'],['D#','sus'],['G','loves'],['F','you.'],['',''],
+        'num_lines': 6,
+        'beats_per_line': 11,
+        'num_verses': 1
+    },
+    'be_like_jesus_chorus': {
+        'music': [['D2','Love'],['D2','one an-'],['D2','other-'],['C2','er'],['A#','as'],['A#','Je-'],['D#','sus'],['G','loves'],['F','you.'],['',''],
                              ['G','Try'],['A','to'],['A#','show'],['F','kind-'],['A#','ness'],['A#','in'],['A#','all'],['C2','that'],['D2','you'],['C2','do.'],
                              ['C2','Be'],['D2','gen-'],['D2','tle and'],['D2','lov-'],['C2','ing'],['A#','in'],['A#','deed'],['A','and'],['G','in'],['F','thought,'],
                              ['D#','For'],['D','these'],['A#','are'],['D','the'],['D#','things'],['C2','Je-'],['A','sus'],['A#','taught.'],
                             ],
-    'be_kind': [['C','I'],['F','want'],['F','to'],['F','be'],['A','kind'],['F','to'],['G','ev-'],['A#','ry-'],['D','one,'],
-                ['D','For'],['E','that'],['G','is,'],['A#','right,'],['D2','you'],['C2','see.'],['',''],['',''],['',''],
+        'num_lines': 4,
+        'beats_per_line': 10,
+        'num_verses': 1
+    },
+    'be_kind': {
+        'music': [['C','I'],['F','want'],['F','to'],['F','be'],['A','kind'],['F','to'],['G','ev-'],['A#','ry-'],['D','one,'],['',''],
+                ['D','For'],['E','that'],['G','is,'],['A#','right,'],['D2','you'],['C2','see.'],['',''],['',''],['',''],['',''],
                 ['C','So'],['C','I'],['F','say'],['F','to'],['F','my-'],['A','self,'],['F','"Re-'],['G','mem'],['A#','ber'],['D','this:'],
                 ['E','Kind-'],['E','ness'],['E','be-'],['A#','gins'],['E','with'],['F','me."'],
                ],
-    'silent_night': [['F', 'Si-'], ['G', '-'], ['F', 'lent'], ['D', 'night'], ['', ''], ['F', 'Ho-'], ['G', '-'], ['F', 'ly'], ['D', 'night'], ['', ''],
+        'num_lines': 4,
+        'beats_per_line': 10,
+        'num_verses': 1
+    },
+    'silent_night': {
+        'music': [['F', 'Si-'], ['G', '-'], ['F', 'lent'], ['D', 'night'], ['', ''], ['F', 'Ho-'], ['G', '-'], ['F', 'ly'], ['D', 'night'], ['', ''],
                      ['C', 'All'], ['', ''], ['C', 'is'], ['A', 'calm,'], ['', ''], ['A#', 'All'], ['', ''], ['A#', 'is'], ['F', 'bright'], ['', ''],
                      ['G', 'Round'], ['G', 'yon'], ['A#', 'vir-,'], ['A', '-'], ['G', 'gin'], ['F', 'mo-'], ['G', 'ther'], ['F', 'and'], ['D', 'Child'], ['', ''],
                      ['G', 'Ho-'], ['G', 'ly'], ['A#', 'in-,'], ['A', 'fant'], ['G', 'so'], ['F', 'ten-'], ['G', 'der'], ['F', 'and'], ['D', 'mild'], ['', ''],
                      ['C', 'Sleep'], ['C', 'in'], ['D#', 'hea-,'], ['', ''], ['C', 'ven-'], ['A', 'ly'], ['A#', 'pea-'], ['', ''], ['D', 'ce'], ['', ''],
                      ['A#', 'Sle-'], ['F', 'ep'], ['D', 'in'], ['F', 'hea-,'], ['D#', 'ven-'], ['C', 'ly'], ['A#', 'peace']
                     ],
-    'away_in_a_manger': [
-        ['C', 'A-'], ['F', 'way'], ['F', 'in'], ['G', 'a-'], ['A', '-'],
-        ['F', 'man-'], ['F', 'ger'], ['A', 'No-'], ['A#', '-'], ['C', 'crib'],
-        ['C', 'for'], ['D', 'a'], ['A#', 'bed'],
-        ['G', 'The-'], ['A', '-'], ['A#', 'lit-'], ['A#', 'tle'], ['C', 'Lord'],
-        ['A', 'Je-'], ['A', 'sus'], ['F', 'lay-'], ['A', '-'], ['G', 'down'],
-        ['D', 'his'], ['F', 'sweet'], ['E', 'head'],
-        ['C', 'The'], ['F', 'stars'], ['F', 'in'], ['G', 'the-'], ['A', '-'],
-        ['F', 'hea-'], ['F', 'vens'], ['A', 'Looked-'], ['A#', '-'], ['C', 'down'],
-        ['C', 'where'], ['D', 'he'], ['A#', 'lay'],
-        ['G', 'The-'], ['A', '-'], ['A#', 'lit-'], ['A#', 'tle'], ['C', 'Lord'],
-        ['A', 'Je-'], ['A', 'sus'], ['F', 'a-'], ['A', '-'], ['G', 'sleep'],
-        ['D', 'on'], ['E', 'the'], ['F', 'hay']
-    ],
-    'hark_the_herald': [
-        ['C', 'Hark'], ['F', 'the'], ['F', 'her-'], ['E', 'ald'], ['F', 'an-'], ['A', 'gels'], ['A', 'sing-'], ['G', '-'],
-        ['C', 'glo,'], ['C', 'ry'], ['C', 'to'], ['A#', 'the'], ['A', 'new-'], ['G', 'born'], ['A', 'king'], ['', ''],
-        ['C', 'Peace'], ['F', 'on'], ['F', 'earth'], ['E', 'and'], ['F', 'mer-'], ['A', 'cy'], ['A', 'mi-'], ['G', 'ld'],
-        ['C', 'God'], ['G', 'and'], ['G', 'sin-'], ['E', 'ners'], ['E', 're,'], ['D', 'con-'], ['C', 'ciled'], ['', ''],
-        ['C', 'Joy-'], ['C', 'ful'], ['C', 'all'], ['F', 'ye'], ['A#', 'na-'],
-        ['A', 'tions'], ['A', 'ri-'], ['G', 'se'],
-        ['C', 'Join'], ['C', 'the'], ['C', 'tri-'], ['F', 'umph'], ['A#', 'of'],
-        ['A', 'the'], ['A', 'ski-'], ['G', 'es'],
-        ['D', 'With'], ['D', 'th an-'], ['D', 'gel-'], ['C', 'ic'], ['A#', 'hosts'],
-        ['A', 'pro-'], ['A#', 'claim'],
-        ['G', 'Christ'], ['A', 'is-'], ['A#', '-'], ['C', 'born'], ['F', 'in'],
-        ['F', 'Beth-'], ['G', 'le-'], ['A', 'hem'],
-        ['D', 'Hark'], ['D', 'the'], ['D', 'her-'], ['C', 'ald'], ['A#', 'an-'],
-        ['A', 'gels'], ['A#', 'sing'],
-        ['G', 'Christ'], ['A', 'is-'], ['A#', '-'], ['C', 'born'], ['F', 'in'],
-        ['F', 'Beth-'], ['G', 'le-'], ['F', 'hem']
-    ]
+        'num_lines': 6,
+        'beats_per_line': 10,
+        'num_verses': 1
+    },
+    'away_in_a_manger': {
+        'music': [
+                    ['C', 'A-'], ['F', 'way'], ['F', 'in'], ['G', 'a-'], ['A', '-'],
+                    ['F', 'man-'], ['F', 'ger'], ['A', 'No-'], ['A#', '-'], ['C', 'crib'],
+                    ['C', 'for'], ['D', 'a'], ['A#', 'bed'],
+                    ['G', 'The-'], ['A', '-'], ['A#', 'lit-'], ['A#', 'tle'], ['C', 'Lord'],
+                    ['A', 'Je-'], ['A', 'sus'], ['F', 'lay-'], ['A', '-'], ['G', 'down'],
+                    ['D', 'his'], ['F', 'sweet'], ['E', 'head'],
+                    ['C', 'The'], ['F', 'stars'], ['F', 'in'], ['G', 'the-'], ['A', '-'],
+                    ['F', 'hea-'], ['F', 'vens'], ['A', 'Looked-'], ['A#', '-'], ['C', 'down'],
+                    ['C', 'where'], ['D', 'he'], ['A#', 'lay'],
+                    ['G', 'The-'], ['A', '-'], ['A#', 'lit-'], ['A#', 'tle'], ['C', 'Lord'],
+                    ['A', 'Je-'], ['A', 'sus'], ['F', 'a-'], ['A', '-'], ['G', 'sleep'],
+                    ['D', 'on'], ['E', 'the'], ['F', 'hay']
+                ],
+        'num_lines': 4,
+        'beats_per_line': 13,
+        'num_verses': 1
+    },
+    'hark_the_herald': {
+        'music': [
+                    ['C', 'Hark'], ['F', 'the'], ['F', 'her-'], ['E', 'ald'], ['F', 'an-'], ['A', 'gels'], ['A', 'sing-'], ['G', '-'],
+                    ['C', 'glo,'], ['C', 'ry'], ['C', 'to'], ['A#', 'the'], ['A', 'new-'], ['G', 'born'], ['A', 'king'], ['', ''],
+                    ['C', 'Peace'], ['F', 'on'], ['F', 'earth'], ['E', 'and'], ['F', 'mer-'], ['A', 'cy'], ['A', 'mi-'], ['G', 'ld'],
+                    ['C', 'God'], ['G', 'and'], ['G', 'sin-'], ['E', 'ners'], ['E', 're,'], ['D', 'con-'], ['C', 'ciled'], ['', ''],
+                    ['C', 'Joy-'], ['C', 'ful'], ['C', 'all'], ['F', 'ye'], ['A#', 'na-'],
+                    ['A', 'tions'], ['A', 'ri-'], ['G', 'se'],
+                    ['C', 'Join'], ['C', 'the'], ['C', 'tri-'], ['F', 'umph'], ['A#', 'of'],
+                    ['A', 'the'], ['A', 'ski-'], ['G', 'es'],
+                    ['D', 'With'], ['D', 'th an-'], ['D', 'gel-'], ['C', 'ic'], ['A#', 'hosts'],
+                    ['A', 'pro-'], ['A#', 'claim'], ['', ''],
+                    ['G', 'Christ'], ['A', 'is-'], ['A#', '-'], ['C', 'born'], ['F', 'in'],
+                    ['F', 'Beth-'], ['G', 'le-'], ['A', 'hem'],
+                    ['D', 'Hark'], ['D', 'the'], ['D', 'her-'], ['C', 'ald'], ['A#', 'an-'],
+                    ['A', 'gels'], ['A#', 'sing'], ['', ''],
+                    ['G', 'Glo-'], ['A', 'ry'], ['A#', '-'], ['C', 'to'], ['F', 'the'],
+                    ['F', 'New-'], ['G', 'born'], ['F', 'King']
+                ],
+        'num_lines': 4,
+        'beats_per_line': 16,
+        'num_verses': 1
+    },
 }
 
 def draw_note(draw: ImageDraw, x: int, y: int, note: str, radius, font) -> tuple[int, int]:
@@ -185,15 +240,16 @@ def make_music(song):
         
         x += x_step
         
-        if x >= x_start + (beats_per_line*x_step):
+        if x >= x_start + (beats_per_line*x_step) - radius:
             x = x_start
             y += y_step
 
     image.save(f'{song}.png')
 
 if __name__ == "__main__":
-    song = 'christmas_bells'
     if len(sys.argv) > 1:
         song = sys.argv[1]
-    
-    make_music(song)
+        make_music(song)
+    else:
+        for song in songs:
+            make_music(song)
