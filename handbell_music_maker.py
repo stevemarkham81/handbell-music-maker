@@ -204,17 +204,11 @@ def make_music(song):
     image = Image.new('RGB', img_resolution, color=color_map['white'])
     draw = ImageDraw.Draw(image)
 
-    if 'music' in songs[song]:
-        music = songs[song]['music']
-        num_lines = songs[song]['num_lines']
-        num_verses = songs[song]['num_verses']
-        beats_per_line = songs[song]['beats_per_line']
-    else:
-        music = songs[song]
-        beats_per_line = 10
-        num_lines = 10
-        num_verses = 1
-
+    music = songs[song]['music']
+    num_lines = songs[song]['num_lines']
+    num_verses = songs[song]['num_verses']
+    beats_per_line = songs[song]['beats_per_line']
+ 
     radius = floor(min(img_resolution[0]/(beats_per_line*3+1), img_resolution[1]/(2+num_lines*(3+num_verses))))
 
     x_start = radius*2
