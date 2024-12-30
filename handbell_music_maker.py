@@ -188,7 +188,7 @@ songs = {
     },
 }
 
-def draw_note(draw: ImageDraw, x: int, y: int, note: str, radius, font) -> tuple[int, int]:
+def draw_note(draw: ImageDraw, x: int, y: int, note: str, radius, font):
     color = color_map[note]
     ring_thinkness = max(radius//5, 5)
     if '#' in note:
